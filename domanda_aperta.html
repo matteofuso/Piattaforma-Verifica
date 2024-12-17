@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domanda Aperta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Domanda Aperta</h1>
+        <div id="timer">Tempo rimasto: <span id="time-left">00:00</span></div>
+    </header>
+
+    <main>
+        <section class="domanda">
+            <h2 id="domanda-testo">Caricamento della domanda...</h2>
+            <textarea id="risposta" placeholder="Scrivi qui la tua risposta"></textarea>
+        </section>
+
+        <div class="actions">
+            <button id="menu-button" onclick="vaiAlMenu()">Torna al menu</button>
+            <button id="submit-button" onclick="salvaRisposte()">Salva Risposta</button>
+        </div>
+    </main>
+    <script src="domande.js"></script>
+    <script src="function.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#timer {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.domanda {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.domanda label
+{
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.domanda h2 {
+    margin-top: 0;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    resize: none;
+    box-sizing: border-box; /* Include il padding e il bordo nelle dimensioni totali */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.card {
+    width: 200px;
+    height: 150px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-link {
+    text-decoration: none;
+    color: #333;
+    height: 100%;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+}
+
+.card-content h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.card-content p {
+    font-size: 1em;
+}
+
+/* Centra il pulsante */
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Stile del pulsante rosso */
+#finish-button {
+    background-color: #d9534f;  /* Rosso (Bootstrap Red) */
+    color: #fff;  /* Testo bianco */
+    padding: 15px 30px;  /* Spazio intorno al testo */
+    border: none;
+    border-radius: 5px;  /* Bordo arrotondato */
+    font-size: 1.2em;  /* Dimensione del testo */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Cambia il colore al passaggio del mouse */
+#finish-button:hover {
+    background-color: #c9302c;  /* Rosso più scuro */
+    transform: translateY(-5px);  /* Leggero spostamento verso l'alto */
+}
+
+/* Cambia il colore al click */
+#finish-button:active {
+    background-color: #ac2925;  /* Rosso ancora più scuro */
+    transform: translateY(0);  /* Ripristina il movimento */
+}
