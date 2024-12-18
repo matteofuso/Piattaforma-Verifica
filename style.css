@@ -30,8 +30,7 @@ main {
     background: #fff;
 }
 
-.domanda label
-{
+.domanda label {
     display: block;
     font-size: 1.2em;
     margin-bottom: 10px;
@@ -50,7 +49,8 @@ textarea {
     border-radius: 5px;
     font-size: 1em;
     resize: none;
-    box-sizing: border-box; /* Include il padding e il bordo nelle dimensioni totali */
+    box-sizing: border-box;
+    /* Include il padding e il bordo nelle dimensioni totali */
 }
 
 footer {
@@ -128,24 +128,33 @@ button:hover {
 
 /* Stile del pulsante rosso */
 #finish-button {
-    background-color: #d9534f;  /* Rosso (Bootstrap Red) */
-    color: #fff;  /* Testo bianco */
-    padding: 15px 30px;  /* Spazio intorno al testo */
+    background-color: #d9534f;
+    /* Rosso (Bootstrap Red) */
+    color: #fff;
+    /* Testo bianco */
+    padding: 15px 30px;
+    /* Spazio intorno al testo */
     border: none;
-    border-radius: 5px;  /* Bordo arrotondato */
-    font-size: 1.2em;  /* Dimensione del testo */
+    border-radius: 5px;
+    /* Bordo arrotondato */
+    font-size: 1.2em;
+    /* Dimensione del testo */
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 /* Cambia il colore al passaggio del mouse */
 #finish-button:hover {
-    background-color: #c9302c;  /* Rosso più scuro */
-    transform: translateY(-5px);  /* Leggero spostamento verso l'alto */
+    background-color: #c9302c;
+    /* Rosso più scuro */
+    transform: translateY(-5px);
+    /* Leggero spostamento verso l'alto */
 }
 
 /* Cambia il colore al click */
 #finish-button:active {
-    background-color: #ac2925;  /* Rosso ancora più scuro */
-    transform: translateY(0);  /* Ripristina il movimento */
+    background-color: #ac2925;
+    /* Rosso ancora più scuro */
+    transform: translateY(0);
+    /* Ripristina il movimento */
 }

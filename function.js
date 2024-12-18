@@ -52,8 +52,7 @@ async function caricaCrocette(numeroDomanda = 0) {
     domanda.opzioni.forEach((opzione, i) => {
       const label = document.createElement("label");
       label.innerHTML = `
-                    <input type="radio" name="domanda-${numeroDomanda}-${index}" value="${i}" ${rispostaSalvata == i ? "checked" : ""
-        }>
+                    <input type="radio" name="domanda-${numeroDomanda}-${index}" value="${i}" ${rispostaSalvata == i ? "checked" : ""}>
                     ${opzione}
                 `;
       domandaContainer.appendChild(label);
